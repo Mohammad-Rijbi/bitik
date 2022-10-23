@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+body {
+    min-height: 600vh;
+    background-image: url(../image/header/decore2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 620px auto;
+    position: relative;
+}
+
+/* !!!!!!!!! Header design !!!!!!!!!! */
+
+header {
+    min-height: 80px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec1 {
+    min-height: 600px;
+}
+
+/* logo start */
+
+.logo {
+    margin-left: 50px;
+}
+
+/* logo end */
+
+
+/* navbar start */
+.navbar {
+    margin-left: 200px;
+}
+.navbar ul li {
+    float: left;
+    margin: 0 20px;
+    list-style-type: none;
+    /* font-size: 16px; */
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar end */
+
+/* sidenav start */
+.sidenav {
+    margin-right: 50px;
+}
+.sidenav ul li {
+    float: left;
+    margin: 0 20px;
+    list-style-type: none;
+}
+.sidenav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* btn design */
+.btn a {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+/* sidenav end */
+
+
+/* headermain part */
+.headmain {
+    display: flex;
+    position: relative;
+}
+.likha {
+    margin: 100px 0 0 70px;
+
+}
+.likha img {
+    position: absolute;
+    top: 210px;
+    left: 265px;
+    z-index: -1;
+}
+
+.likha h4 {
+    font-size: 17px;
+    color: #DF6951;
+    margin-bottom:25px;
+    
+}
+.likha h1 {
+    font-size: 80px;
+    line-height: 80px;
+    word-spacing: -5px;
+    color: #181E4B;
+    letter-spacing: -5px;
+    
+}
+.likha p {
+    margin: 15px 0 50px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #5E6282;
+    text-align: justify;
+}
+.likha a {
+    color: white;
+    background-color: #F1A501;
+    text-decoration: none;
+    padding: 12px 19px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 90px;
+}
+.likha h6 {
+    display: inline-block;
+    font-size: 17px;
+    color: #686D77;
+    margin-left: 10px;
+}
+.likha h6 span {
+    padding: 10px;
+    background-color: #DF6951;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 525px;
+    left: 240px;
+}
+.headimg {
+    margin-right: 60px;
+    margin-left: -160px;
+}
+
+
+/* !!!!!!!!!!!!! SECTION 2 !!!!!!!!!!!!! */
+.two {
+    margin: 30px auto;
+}
+.two h5 {
+    text-align: center;
+    font-size: 18px;
+    color:#5E6282 ;
+
+}
+.two h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #14183E;
+    text-transform: capitalize;
+}
+.cards4 {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    column-gap: 95px;
+    text-align: center;
+    margin: 80px 0;
+    margin-left: 20px;
+}
+
+.card1 {
+    padding: 25px 9px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.card1:hover {
+    padding: 30px 11px;
+    box-shadow: 20px 20px 100px grey;
+}
+.card1 h3 {
+    color:#1E1D4C ;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.card1 p {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.card2 {
+    padding: 25px 9px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.card2:hover {
+    padding: 30px 11px;
+    box-shadow: 20px 20px 100px grey;
+}
+.card2 img {
+    margin-top: -45px;
+}
+.card2 h3 {
+    color:#1E1D4C ;
+    font-size: 20px;
+    margin-top: -23px;
+}
+.card2 p {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.card3 {
+    padding: 25px 9px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.card3:hover {
+    padding: 30px 11px;
+    box-shadow: 20px 20px 100px grey;
+}
+.card3 h3{
+    color:#1E1D4C ;
+    font-size: 20px;
+    margin: 13px 0;
+}
+.card3 p {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card4 {
+    padding: 25px 9px;
+    border-radius: 30px;
+    transition: .5s;
+}
+.card4:hover {
+    padding: 30px 11px;
+    box-shadow: 20px 20px 100px grey;
+}
+.card4 img {
+    margin-top: 10px;
+    width: 60px;
+}
+.card4 h3{
+    color:#1E1D4C ;
+    font-size: 20px;
+    margin-top: 13px;
+}
+.card4 p {
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/* !!!!!!!!!!!!!! SECTION 3 !!!!!!!!!!!!!! */
+.three {
+    margin: 30px auto;
+}
+.three h5 {
+    text-align: center;
+    font-size: 20px;
+    color:#5E6282 ;
+
+}
+.three h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #14183E;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+/* $$$$$ card $$$$$$$ */
+
+.pics3 {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.pic1 {
+    display: inline-block;
+    position: relative;
+    transition: .5s;
+    margin: 0 10px;
+    margin-bottom: 70px;
+}
+.pic1:hover {
+    transform: scale(1.05,1.05);
+}
+.intro1 {
+    position: absolute;
+    top: 322px;
+    left: 8px;
+    background-color:white;
+    padding: 10px 28px;
+    border-radius: 0 0 20px 20px;
+}
+.intro1 h5 {
+    font-size: 15px;
+    display: inline-block;
+}
+.intro1 h6 {
+    font-size: 15px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.intro1 p {
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.intro1 p span img{
+    margin-bottom:-5px;
+    margin-right: 10px;
+}
+.pic2 {
+    display: inline-block;
+    position: relative;
+    transition: .5s;
+    margin: 0 10px;
+}
+.pic2:hover {
+    transform: scale(1.05,1.05);
+}
+.intro2 {
+    position: absolute;
+    top: 324px;
+    left: 9px;
+    background-color:white;
+    padding: 10px 34px;
+    border-radius: 0 0 20px 20px;
+}
+.intro2 h5 {
+    font-size: 15px;
+    display: inline-block;
+}
+.intro2 h6 {
+    font-size: 15px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.intro2 p {
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.intro2 p span img{
+    margin-bottom:-5px;
+    margin-right: 10px;
+}
+.pic3 {
+    display: inline-block;
+    position: relative;
+    transition: .5s;
+    margin: 0 20px;
+}
+.pic3:hover {
+    transform: scale(1.05,1.05);
+}
+.intro3 {
+    position: absolute;
+    top: 324px;
+    left: 7px;
+    background-color:white;
+    padding: 10px 30px;
+    border-radius: 0 0 20px 20px;
+}
+.intro3 h5 {
+    font-size: 15px;
+    display: inline-block;
+}
+.intro3 h6 {
+    font-size: 15px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.intro3 p {
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.intro3 p span img{
+    margin-bottom:-5px;
+    margin-right: 10px;
+}
+
+/* !!!!!!!!section4!!!!!!!!!! */
+.four {
+    margin-bottom: 150px;
+}
+.box1 {
+    width: 40%;
+    margin-left: 50px;
+    display: inline-block;
+}
+.box1 h5 {
+    font-size: 20px;
+    color: #5E6282;
+
+}
+.box1 h1 {
+    font-size: 50px;
+    color: #1E1D4C;
+}
+.no1 {
+    width: 80%;
+}
+.no1 img {
+   float: left;
+   margin-right: 20px;
+   
+}
+.no1 h6 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #686D77;
+}
+.no1 p {
+    margin: 3px 0;
+    color:#5E6282;
+    
+}
+.no2 {
+    width: 80%;
+}
+.no2 img {
+   float: left;
+   margin-right: 20px;
+   
+}
+.no2 h6 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #686D77;
+}
+.no2 p {
+    margin: 3px 0;
+    color:#5E6282;
+    
+}
+.no3 {
+    width: 80%;
+}
+.no3 img {
+   float: left;
+   margin-right: 20px;
+   
+}
+.no3 h6 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #686D77;
+}
+.no3 p {
+    margin: 3px 0;
+    color:#5E6282;
+    
+}
+
+/* box2 work */
+
+.box2 {
+    width: 40%;
+    float: right;
+    position: relative;
+}
+.cardbox {
+    width: 300px;
+    height: 320px;
+    margin-top: 80px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 70px rgba(0, 162, 255, 0.747);
+}
+.cardbox img {
+    margin: 20px 0 0 20px;
+    border-radius: 20px;
+}
+.box2 h2 {
+    font-size: 20px;
+    margin: 10px 20px 8px ;
+}
+.box2 p {
+    font-size: 16px;
+    color: #686D77;
+    margin-left: 20px;
+}
+
+.cardbox h6 span img {
+    margin-bottom: -5px;
+}
+.cardbox h6 {
+    color: #686D77;
+    font-size: 15px;
+}
+
+/* cardmini */
+
+.cardboxmini {
+    width: 170px;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 270px;
+    right: 90px;
+    box-shadow: 60px 30px 150px;
+}
+.cardboxmini img {
+    float: left;
+}
+.cardboxmini p {
+}
+.cardboxmini h4 {
+    font-size: 16px;margin-bottom: 10px;
+}
+.cardboxmini h6 span {
+    color: #686D77;
+}
+
+/* !!!!!!!! section five !!!!!!!!!!!! */
+.five {
+    margin-bottom: 100px;
+}
+.sliding {
+    width: 95%;
+    height: 400px;
+    background-color: #686D77;
+}
+
+/* !!!!!!!!!!! section six !!!!!!!!!!!!!!*/
+
+.six {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .six div {
+    box-shadow: 10px 10px 100px gray;
+} */
+
+.seven {
+    position: relative;
+}
+.seven div {
+    width: 100%;
+    height: 300px;
+    background-image: url(../image/secseven/Rectangle\ 164.png)
+}
+
+.leftimg {
+    position: absolute;
+    top:0 ;
+    right: 0;
+    overflow: hidden;
+}
+.rightimg {
+    width: 10%;
+    position: absolute;
+    top:0;
+    left: 830px;
+    overflow: hidden;
+}
